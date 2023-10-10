@@ -19,6 +19,10 @@ import {
   SiDocker,
   SiNestjs,
   SiExpress,
+  SiRedux,
+  SiSvelte,
+  SiMaterialdesign,
+  SiBootstrap,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -34,6 +38,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSvelte />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiNestjs />
       </Col>
